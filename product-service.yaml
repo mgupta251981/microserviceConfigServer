@@ -8,7 +8,7 @@ spring:
   h2:
     console:
       enabled: true
-
+      
 eureka:
   instance:
     instance-id: ${spring.application.name}:${random.int}
@@ -16,3 +16,6 @@ eureka:
   client:
     service-url:
       defaultZone:  http://localhost:8100/eureka
+      
+ 
+message: Welcome to default Porduct service
